@@ -5,7 +5,7 @@
 
 // LED控制
 unsigned long ledTime = millis();
-int ledMode = 2; // LED閃爍模式
+int ledMode = 2; // LED閃爍模式 (閃爍間隔 模式1:0.1秒；模式2:1秒)
 bool ledBlinkFlag = false; // LED閃爍
 // 按鈕控制
 unsigned long buttonTime = millis();
