@@ -67,16 +67,16 @@ void blinkLedMode(int mode)
 {
   if(mode == 1)
   {
-    blinkLED(100); // 0.1秒閃一下
+    blinkLed(100); // 0.1秒閃一下
   }
   if(mode == 2)
   {
-    blinkLED(1000); // 1秒閃一下
+    blinkLed(1000); // 1秒閃一下
   }
 }
 
 // LED閃爍
-void blinkLED(int millisecond)
+void blinkLed(int millisecond)
 {
   unsigned long currentTime = millis();
   unsigned long interval = currentTime - ledTime; // 間隔時間
